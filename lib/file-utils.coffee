@@ -1,6 +1,6 @@
 remote = require "remote"
 path   = require "path"
-dialog = remote.require "dialog"
+dialog = remote.Dialog
 
 module.exports =
 class FileUtil
